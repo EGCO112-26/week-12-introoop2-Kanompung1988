@@ -44,6 +44,7 @@ jobs:
           Age: 18
         comparison-method: contains
         timeout: 10
+        max-score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
