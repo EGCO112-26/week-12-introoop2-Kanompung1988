@@ -33,5 +33,5 @@ void student::print_name() { cout << name; }
 
 void student::display() {
   cout << "Name: " << name << endl;
-  cout << "Age:  " << age  << endl;
+  cout << "Age: "  << age  << endl;
 }
